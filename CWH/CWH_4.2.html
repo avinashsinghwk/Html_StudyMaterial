@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Add your information</h1>
+    <form>
+      
+        <fieldset> 
+
+            <legend>Fill About Yourself</legend>
+            <label for="name">Enter your name      :  </label>
+            <input type="text" id="name" placeholder="Enter your name">
+            <br>
+            <br>
+    
+            <label for="mob">Enter your number :  </label>
+            <input type="tel" id="mob" pattern="[0-9]{3} - [0-9]{3} - [0-9]{4}" placeholder="Enter your mobile" required>
+
+            <br>
+            <br>
+    
+            <label for="aadhar">Enter your aadhar :  </label>
+            <input type="number" id="aadhar" placeholder="Enter your aadhar">
+            <br>
+            <br>
+    
+            <span>Enter your language   :  </span>
+            <label for="eng">English </label>
+            <input type="checkbox" id="eng" name="lang">
+            <label for="hin">Hindi </label>
+            <input type="checkbox" id="hin" name="lang">
+            <label for="urd">Urdu </label>
+            <input type="checkbox" id="urd" name="lang">
+            <br>
+            <br>
+    
+            <label for="email">Enter your E-mail  :  </label>
+            <input type="email" id="email" placeholder="Enter your e-mail">
+            <br>
+            <br>
+    
+            <label for="file">Upload Photo  :  </label>
+            <input type="file" id="file">
+            <br>
+            <br>
+    
+            <label for="date">Enter your Date :  </label>
+            <input type="date" id="date">
+            <br>
+            <br>
+            <label for="password">Enter your password :  </label>
+            <input type="password" id="password">
+            <br>
+            <br>
+    
+            <span>Enter your Gender  :  </span>
+            <label for="male">Male </label>
+            <input type="radio" name="gender" id="male">
+            <label for="female">Female </label>
+            <input type="radio" name="gender" id="female">
+            <label for="other">Others </label>
+            <input type="radio" name="gender" id="other">
+            <br>
+            <br>
+    
+            <label for="car">Enter your Car  :  </label>
+            <select id="car">
+                <option value="">Choose</option>
+                <option value="maruti">Maruti</option>
+                <option value="bugati">Bugati</option>
+                <option value="tesla">Tesla</option>
+                <option value="lamborgini">Lamborgini</option>
+            </select>
+            <br>
+            <br>
+            <br>
+            
+            <label for="textarea">Enter your thoughts : </label>
+            <textarea id="textarea" cols="30" rows="10" placeholder="Write here........"></textarea>
+            <br>
+            <br>
+            <br>
+            
+            <label for="img">Download Photo : </label>
+            <input type="image" id="img" src="Photo/favicon.ico">
+            <br>
+            <br>
+            <br>
+            
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </fieldset>
+
+
+
+
+    </form>
+</body>
+</html>
